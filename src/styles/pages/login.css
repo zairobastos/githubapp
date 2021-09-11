@@ -1,0 +1,61 @@
+.home{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.image_git{
+    margin: 20px 0px 48.3px 0px;
+}
+
+.user{
+    background-color: #fff;
+    border: solid 1px #E5E5E5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    outline: #E5E5E5;
+    width: 339px;
+    padding: 17px 0px 16px 20px;
+    box-shadow: #0000001D 0px 3px 6px;
+    margin-bottom: 19px;
+}
+
+.btn_entrar{
+    display: flex;
+    flex-direction: row;
+    width: 339px;
+    background-color: #FFCE00;
+    border-radius: 12px;
+    box-shadow: #0000001D 0px 3px 6px;
+    margin-bottom: 19px;
+    border: none;
+    padding: 17px 0px 16px 0px;
+    justify-content: center;
+    
+}
+
+.btn_entrar p{
+    color: #030202;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_entrar .entra{
+    margin: 3px 0px 0px 13px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .home{
+        width: 100vw;
+    }
+}

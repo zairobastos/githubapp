@@ -1,9 +1,11 @@
-import './App.css';
+import React from 'react';
+import './styles/global.css';
+import Routes from './routes';
 
 export default function App() {
-  return (
-    <div>
-      <h1>Olá, Mundo!</h1>
-    </div>
+  return(
+    <>
+      <Routes/>
+    </>
   );
 }
