@@ -1,0 +1,31 @@
+/*Main*/
+main .dados{
+    
+    border-bottom: 1px solid #434343;
+}
+main .dados .status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 14px 24px 0px 24px;
+    margin-bottom: 34px;
+}
+
+main .dados .status div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:60px;
+    height:20px
+}
+
+main .dados .status .div1{
+    justify-content: flex-start;
+    width:50px;
+    align-items: center;
+    font-size: 15px;
+    font-weight:lighter;
+}
+main .dados .status .div1 .star{
+    margin-right: -15px;
+}
