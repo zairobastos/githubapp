@@ -1,9 +1,9 @@
 /*Main*/
-main .dados{
+main .dadoss{
     
     border-bottom: 1px solid #434343;
 }
-main .dados .status{
+main .dadoss .status{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,7 +11,7 @@ main .dados .status{
     margin-bottom: 34px;
 }
 
-main .dados .status div{
+main .dadoss .status div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -19,13 +19,13 @@ main .dados .status div{
     height:20px
 }
 
-main .dados .status .div1{
+main .dadoss .status .div1{
     justify-content: flex-start;
     width:50px;
     align-items: center;
     font-size: 15px;
     font-weight:lighter;
 }
-main .dados .status .div1 .star{
+main .dadoss .status .div1 .star{
     margin-right: -15px;
 }

@@ -13,15 +13,17 @@ export default function Menu() {
                 </div>
             </Link>
             <Link to="/Repositorios" className="link">
-            <div>
-                <FiGithub size="27px"/>
-                <p>Repos</p>
-            </div>
+                <div>
+                    <FiGithub size="27px"/>
+                    <p>Repos</p>
+                </div>
             </Link>
-            <div>
-                <FiUsers size="27px"/>
-                <p>Seguidores</p>
-            </div>
+            <Link to="/Seguidores" className="link">
+                <div>
+                    <FiUsers size="27px"/>
+                    <p>Seguidores</p>
+                </div>
+            </Link>
             <div>
                 <FiUsers size="27px"/>
                 <p>Seguindo</p>

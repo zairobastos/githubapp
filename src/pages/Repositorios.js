@@ -5,7 +5,7 @@ import '../styles/pages/repositorio.css';
 export default function Repositorios() {
     return(
         <>
-            <div className="dados">
+            <div className="dadoss dados">
                 <div className="titulo">
                     <div className="aponta"></div>
                     <h2>brasiliapp-react-native</h2>
