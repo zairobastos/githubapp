@@ -1,8 +1,9 @@
 import React from 'react';
-import {FiLogOut, FiHome,FiGithub,FiUsers} from 'react-icons/fi';
+import {FiLogOut} from 'react-icons/fi';
 import '../styles/pages/home.css';
 import Perfil from '../images/perfil.jpeg';
 import {Link} from 'react-router-dom';
+import Menu from './Menu';
 
 export default function Home() {
     return(
@@ -56,24 +57,7 @@ export default function Home() {
                 </div>
             </main>
             <footer>
-                <nav>
-                    <div className="ativo">
-                        <FiHome size="27px" color="#000"/>
-                        <p>Home</p>
-                    </div>
-                    <div>
-                        <FiGithub size="27px"/>
-                        <p>Repos</p>
-                    </div>
-                    <div>
-                        <FiUsers size="27px"/>
-                        <p>Seguidores</p>
-                    </div>
-                    <div>
-                        <FiUsers size="27px"/>
-                        <p>Seguindo</p>
-                    </div>
-                </nav>
+                <Menu/>
             </footer>
         </>
     );
