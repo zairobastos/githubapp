@@ -9,4 +9,9 @@ body{
     background-color: #292929;
     font-family: 'Nunito Sans', sans-serif;
     color: #fff;
+
+}
+
+.link{
+    text-decoration: none;
 }

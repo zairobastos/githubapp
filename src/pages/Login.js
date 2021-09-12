@@ -10,7 +10,8 @@ export default function Login(){
             <input type="text" placeholder="Usuário" className="user"/>
             <Link to="/Home" className="link">
                 <button className="btn_entrar"> 
-                    <p>ENTRAR</p> <AiOutlineArrowRight size="1.14rem" color="#000" alt="Entrar" className="entra"/>
+                    <p>ENTRAR</p> 
+                    <AiOutlineArrowRight size="1.14rem" color="#000" alt="Entrar" className="entra"/>
                 </button>
             </Link>
         </div>

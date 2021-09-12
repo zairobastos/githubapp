@@ -1,0 +1,206 @@
+/*Cabeçalho*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.56rem;
+    background-color: #1F1F1F;
+    height: 7.875rem;
+    margin-right: 0px;
+}
+header p{
+    color: #fff;
+    font-size: 17px;
+}
+header .p1{
+    font-weight: bold;
+    height: 20px;
+    margin-left: 15%;
+}
+header .p2{
+    height: 20px;
+    margin-right: 15%;
+}
+
+header .p2 .link{
+    color: #fff;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+header .p2 .logout{
+    margin-left: 10px;
+}
+/*Main*/
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: -56px;
+}
+
+.perfil img{
+    width: 10rem;
+    border-radius: 100px;
+    border: solid 3px #FFFFFF;
+}
+
+/*Dados Pessoais*/
+.dados{
+    margin-top: 45px;
+    width: calc(100vw - 30%);
+    margin-left: 15%;
+}
+
+.dados .aponta, .bio .aponta{
+    content: '';
+    width: 10px;
+    height: 42px;
+    background-color: #FFCE00;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-right: 14px;
+}
+.dados .titulo, .bio .titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dados h2, .bio h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.dados p, .bio p{
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+/*Numeros*/
+.numeros{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #5252525D;
+    height: 97px;
+    align-items: center;
+    width: calc(100vw - 30%);
+    margin-top: 44px;
+    margin-left: 15%;
+}
+
+.numeros div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numeros div h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.numeros div p{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+/*BIO*/
+.bio{
+    margin-top: 47px;
+    width: calc(100vw - 30%);
+    margin-left: 15%;
+}
+
+.bio p{
+    word-break: break-word;
+    width: calc(100% - 48px);
+}
+
+/*Menu do rodapé*/
+footer{
+    width: calc(100vw - 30%);
+    margin-left: 15%;
+    margin-top: 73px;
+    background-color: #fff;
+    color: #A5A5A5;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px -3px 6px #00000029;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer nav div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+footer nav div p{
+    font-size: 15px;
+    font-weight: medium;
+}
+
+.ativo{
+    color: #3E3E3E;
+}
+
+
+@media (max-width: 800px){
+    header .p1{
+        margin-left: 11px;
+    }
+    header .p2{
+        margin-right: 29px;
+    }
+    main{
+        width:100vw;
+        margin: 0;
+    }
+    .perfil img{
+        width: 7.15rem;
+    }
+
+    .dados, .bio{
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    .dados .aponta, .bio .aponta{
+        margin-left: 0px;
+    }
+    .dados p, .bio p{
+        margin-left: 24px;
+    }
+
+    .bio p{
+        margin-right: 24px;
+        width: calc(100vw - 48px);
+    }
+
+    .numeros{
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    footer{
+        width: 100vw;
+        margin-left: 0px;
+    }
+}
