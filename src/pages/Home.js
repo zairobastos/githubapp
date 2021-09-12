@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
             </main>
             <footer>
-                <Menu/>
+                <Menu ativo="ativo" ativo1="desativado" ativo2="desativado" ativo3="desativado"/>
             </footer>
         </>
     );

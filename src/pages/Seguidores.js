@@ -19,7 +19,7 @@ export default function Seguidores() {
                 <Segui/>
             </main>
             <footer>
-                <Menu/>
+                <Menu ativo="desativado" ativo1="desativado" ativo2="ativo" ativo3="desativado"/>
             </footer>
         </>
     );

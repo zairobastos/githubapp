@@ -10,7 +10,7 @@ export default function Seguidor() {
         <>
             <header className="cabecalho">
                 <div className="extras">
-                    <Link to="/Seguidores">
+                    <Link to="/Seguidores" className="volta">
                         <FiArrowLeft size="18.47px" color="#fff" alt="Voltar Seguidores"/>
                     </Link>
                     <p>#zairobastos</p>
@@ -60,7 +60,7 @@ export default function Seguidor() {
                 </div>
             </main>
             <footer>
-                <Menu/>
+                <Menu ativo="desativado" ativo1="desativado" ativo2="ativo" ativo3="desativado"/>
             </footer>
         </>
     );

@@ -17,7 +17,7 @@ export default function Repos() {
                 <Repositorios/>
             </main>
             <footer>
-                <Menu/>
+                <Menu ativo="desativado" ativo1="ativo" ativo2="desativado" ativo3="desativado"/>
             </footer>
         </>
     );

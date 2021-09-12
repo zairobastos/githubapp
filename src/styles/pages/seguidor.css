@@ -1,10 +1,9 @@
 .cabecalho .extras{
-    width: 70%;
-    margin-left: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 20px;
+    width: 100%;
 }
 .cabecalho .extras div{
     display: flex;
@@ -12,12 +11,31 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    margin-right: 15%;
 }
 
 .cabecalho .extras p{
     margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .cabecalho .extras div .icon{
     margin-left: 8px;
+}
+
+.cabecalho .extras .volta{
+    margin-left: 15%;
+}
+
+@media (max-width:800px){
+    header .extras{
+        width: 100%;
+    }
+    .cabecalho .extras .volta{
+        margin-left: 11px;
+    }
+    .cabecalho .extras div{
+        margin-right: 11px;
+    }
 }
