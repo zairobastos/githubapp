@@ -1,5 +1,4 @@
 # GitHub APP
-
 **Comandos de instalação**
 
 1. `npx create-react-app githubapp`
