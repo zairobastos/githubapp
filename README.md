@@ -1,6 +1,6 @@
 # GitHub APP
 
-## Comandos de instalação
+**Comandos de instalação**
 
 1. `npx create-react-app githubapp`
 2. `npm install react-icons`
