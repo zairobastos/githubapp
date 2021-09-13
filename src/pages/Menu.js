@@ -24,7 +24,7 @@ export default function Menu(props) {
                     <p>Seguidores</p>
                 </div>
             </Link>
-            <Link to="/" className="link" id={props.ativo3}>
+            <Link to="/Seguindo" className="link" id={props.ativo3}>
                 <div>
                     <FiUsers size="27px"/>
                     <p>Seguindo</p>

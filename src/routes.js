@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Repos from './pages/Repos';
 import Seguidores from './pages/Seguidores';
 import Seguidor from './pages/Seguidor';
+import Seguindo from './pages/Seguindo';
+import Seguin from './pages/Seguin';
 
 export default function Routes(){
     return(
@@ -25,6 +27,12 @@ export default function Routes(){
                 </Route>
                 <Route path="/Seguidor">
                     <Seguidor/>
+                </Route>
+                <Route path="/Seguindo">
+                    <Seguindo/>
+                </Route>
+                <Route path="/Seguin">
+                    <Seguin/>
                 </Route>
             </Switch>
         </BrowserRouter>

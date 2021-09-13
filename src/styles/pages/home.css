@@ -136,7 +136,7 @@ main{
         margin-right: 29px;
     }
     main{
-        width:100vw;
+        width:100%;
         margin: 0;
     }
     .perfil img{
@@ -144,7 +144,7 @@ main{
     }
 
     .dados, .bio{
-        width: 100vw;
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -161,7 +161,7 @@ main{
     }
 
     .numeros{
-        width: 100vw;
+        width: 100%;
         margin-left: 0px;
     }
 }
